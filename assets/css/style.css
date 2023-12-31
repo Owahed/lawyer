@@ -16707,7 +16707,8 @@ body.home-three {
 -----------------------*/
 
 .doctor-section-three {
-  background: url(../img/doctors/best-doctor-bg.jpg);
+  /* background: url(../img/doctors/best-doctor-bg.jpg); */
+  background: #e5f1fb;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
