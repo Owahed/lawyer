@@ -4248,8 +4248,15 @@ html.menu-opened body {
   border-radius: 100%;
   width: 150px;
   background: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.speicality-img img {
+.speicality-img i {
+  color: var(--magenta);
+}
+/* .speicality-img img {
   position: absolute;
   top: 50%;
   -ms-transform: translateY(-50%);
@@ -4257,7 +4264,7 @@ html.menu-opened body {
   left: 0;
   right: 0;
   margin: 0 auto;
-}
+} */
 .speicality-img span {
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -4278,7 +4285,7 @@ html.menu-opened body {
 }
 .speicality-img span i {
   font-size: 15px;
-  color: #0de0fe;
+  color: var(--magenta);
 }
 .speicality-item p {
   font-size: 16px;
@@ -13074,6 +13081,7 @@ ul.benifits-col li i {
 }
 .subox-img .subox-circle img {
   position: absolute;
+  width: 30px;
   left: 50%;
   top: 30%;
   transform: translate(-50%, -30%);
@@ -13161,7 +13169,7 @@ ul.benifits-col li i {
 }
 .section-featurebox {
   padding: 35px 0 135px;
-  background: url(../img/features/feature-box-bg.png) no-repeat bottom center;
+  /* background: url(../img/features/feature-box-bg.png) no-repeat bottom center; */
 }
 .feature-subox img {
   max-height: 215px;
