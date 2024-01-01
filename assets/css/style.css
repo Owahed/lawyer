@@ -359,7 +359,7 @@ table.table td h2 a {
   color: #272b41;
 }
 table.table td h2 a:hover {
-  color: #10defd;
+  color: var(--magenta);
 }
 table.table td h2 span {
   color: #888;
