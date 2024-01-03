@@ -7653,7 +7653,7 @@ body .multi-optn {
 -----------------------*/
 
 .breadcrumb-bar {
-  background-color: #7d7373;
+  background-color: #f1f1f1;
   padding: 15px 0;
 }
 .breadcrumb-bar-one {
@@ -7678,7 +7678,7 @@ body .multi-optn {
   padding: 40px 0;
 }
 .breadcrumb-bar .breadcrumb-title {
-  color: #fff;
+  color: #000;
   font-size: 22px;
   font-weight: 700;
   margin: 5px 0 0;
