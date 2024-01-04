@@ -2326,7 +2326,7 @@ button.bg-danger:hover {
   width: 100%;
   border-top: 1px solid #f0f0f0;
 }
-.main-nav > li .submenu > li.has-submenu > a::after {
+/* .main-nav > li .submenu > li.has-submenu > a::after {
   content: "\f054";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
@@ -2334,7 +2334,7 @@ button.bg-danger:hover {
   right: 15px;
   top: 12px;
   font-size: 13px;
-}
+} */
 .main-nav > li .submenu li {
   position: relative;
 }
@@ -4737,13 +4737,13 @@ html.menu-opened body {
 }
 .client-slider .slick-prev,
 .client-slider .slick-next {
-  background: #0de0fe;
+  background: var(--magenta);
   border-radius: 8px;
   color: #fff;
 }
 .client-slider .slick-prev:hover,
 .client-slider .slick-next:hover {
-  background: #0071dc;
+  background: var(--magentaSecond);
   color: #fff;
 }
 .client-slider .slick-next:before {
@@ -4781,7 +4781,7 @@ html.menu-opened body {
 .pharm-testimonials .patient-details h5 {
   font-size: 18px;
   font-weight: 500;
-  color: #14558d;
+  color: var(--magentaSecond);
   margin-bottom: 10px;
   white-space: nowrap;
   overflow: hidden;
@@ -24273,7 +24273,7 @@ article > img {
     color: #fff;
   }
   .nav-bg-fifteen .main-nav .has-submenu.active > a {
-    color: #fff;
+    color: var(--white);
   }
   .nav-bg-fifteen .main-nav .has-submenu.active .submenu li.active > a {
     color: #fff;
@@ -28817,7 +28817,7 @@ title-name-section
 5.About Lawyer Area Stying 
 ---------------------------------------*/
 .about-lawyer-area {
-  background: #f9f9f9;
+  background: linear-gradient(to bottom, #fff, #f6f6f6);
   padding: 100px 0 0 0;
 }
 .about-lawyer-area .about-lawyer-featured-image img:hover {
